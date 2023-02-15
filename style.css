@@ -1,0 +1,205 @@
+body
+{
+    background-image: url('sahara desert.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    margin-bottom: 10px;
+
+}
+.sahara-heading{
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 500;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    transform: rotate(267deg);
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-option{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;  
+    width: 650px
+}
+.logo{
+    width: 50px;
+    height:50px;
+    cursor: pointer;
+}
+.div-1-img{
+    background-image: url('S11.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-right: 30px; 
+    cursor: pointer;
+}
+.div-1-img:hover{
+  
+    transition: 2s;
+    transform: translateY(-20px);
+}
+.div-2-img:hover{
+   
+    transition: 2s;
+    transform: translateY(-20px);
+}
+.div-3-img:hover{
+
+    transition: 2s;
+    transform: translateY(-20px);
+}
+.div-4-img:hover{
+    background-color: red;
+    transition: 2s;
+    transform: translateY(-20px);
+}
+.div-2-img{
+background-image: url('pic-2.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    /* margin-right: 30px; */
+    cursor: pointer;
+}
+.div-3-img{
+background-image: url('pic-3.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.div-4-img{
+background-image: url('pic-4.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    /* margin-right: 30px; */
+    cursor: pointer;
+}
+p{
+    color: white;
+    font-size: 18px;
+ 
+}
+h2{
+    color: white;
+}
+.explore{
+    background-color:white;
+    padding: 15px 50px 15px 73px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    width: 110px;
+    font-weight:bold;
+}
+.sahara-heading-para{
+    line-height: 1px;
+}
+
+@media only screen and (max-width:856px) {
+    .hero{
+        flex-direction: column;
+         /* align-items: center; */
+
+    }
+    .hero-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .div-1-img{
+        width: 500px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left:24px;
+    }
+    .div-2-img{
+        width: 500px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+    }
+    .div-3-img{
+        width: 500px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left:24px;
+    }
+    .div-4-img{
+        width: 500px;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        
+    }
+    .explore{
+        margin-top: 20px;
+    }
+}
